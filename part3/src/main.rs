@@ -37,17 +37,6 @@ impl City {
                     residents,
                 )
             }
-            _ => {
-                let residents = 1_000;
-
-                (
-                    format!(
-                        "an *unknown-size city* of approximately {} residents",
-                        residents
-                    ),
-                    residents,
-                )
-            }
         };
 
         City {
